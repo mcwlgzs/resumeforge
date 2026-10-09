@@ -1,0 +1,32 @@
+{
+  "name": "resume-forge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vueuse/core": "^12.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "html2canvas-pro": "^1.5.8",
+    "jspdf": "^2.5.2",
+    "lucide-vue-next": "^0.469.0",
+    "nuxt": "^3.15.4",
+    "reka-ui": "^2.0.0",
+    "tailwind-merge": "^3.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.3",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.0.3",
+    "typescript": "^5.7.3",
+    "vue-tsc": "^3.3.12"
+  }
+}
